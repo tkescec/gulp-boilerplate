@@ -7,6 +7,10 @@
     'abstracts/mixins';
 
 // 2. Vendors
+@import
+    'vendors/bootstrap/bootstrap-reboot.scss',
+    'vendors/bootstrap/bootstrap.scss',
+    'vendors/bootstrap/bootstrap-grid.scss';
 
 // 3. Base stuff
 @import

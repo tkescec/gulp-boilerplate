@@ -31,6 +31,7 @@
     "gulp-newer": "^1.4.0",
     "gulp-noop": "^1.0.0",
     "gulp-sass": "^4.0.2",
-    "gulp-terser": "^1.2.0"
+    "gulp-terser": "^1.2.0",
+    "jquery": "^3.4.1"
   }
 }
