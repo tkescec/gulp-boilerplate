@@ -11,8 +11,8 @@ const
     concat = require('gulp-concat'),
     terser = require('gulp-terser'),
     // paths
-    src = '/src',
-    build = '/build';
+    src = 'src',
+    build = 'build';
 
 // HTML processing
 function html(){
@@ -56,7 +56,7 @@ function js(){
 function watch(done){
     sync.init({
         server: {
-            baseDir: '.' + build
+            baseDir: './' + build
         }
     });
 
